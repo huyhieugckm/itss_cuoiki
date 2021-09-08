@@ -29,15 +29,11 @@ return (
                </span>
               )} else if(key == arrData.length -1){
               return(
-                  <span>
-                   {i}]
-               </span>
+                  <span>{i}]</span>
               )
           } else{
               return(
-                  <span>
-                       {i},
-                   </span>
+                  <span>{i},</span>
               )
           }
       } )}
